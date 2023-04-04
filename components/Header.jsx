@@ -24,22 +24,23 @@ const Header = () => {
         }}
       >
         <SocialIcon
-          url="https://linkedin.com/"
+          url="https://www.linkedin.com/in/md-abu-hasnat-ovee-1a3177242/"
+          target="_blank"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://github.com/Ovee-Hasnat"
+          target="_blank"
           fgColor="gray"
           bgColor="transparent"
           className="mx-2"
         />
         <SocialIcon
-          url="https://github.com/"
+          url="https://facebook.com/hasnat.ovee"
+          target="_blank"
           fgColor="gray"
           bgColor="transparent"
-          className="mx-2"
-        />
-        <SocialIcon
-          url="https://facebook.com/"
-          fgColor="gray"
-          bgColor="transparent"
-          className="mx-2"
         />
       </motion.div>
 

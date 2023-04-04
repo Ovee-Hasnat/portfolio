@@ -14,7 +14,7 @@ const Hero = () => {
     delaySpeed: 2000,
   });
   return (
-    <div className="h-screen flex flex-col space-y-8 justify-center overflow-hidden text-center">
+    <div className="h-screen flex flex-col space-y-8 justify-center overflow-hidden text-center pt-24">
       <BackgroundCircles />
       <img
         className="relative h-32 w-32 rounded-full mx-auto object-cover"
@@ -24,7 +24,7 @@ const Hero = () => {
         <h2 className="uppercase text-sm text-gray-500 tracking-[10px] pb-2">
           software engineer
         </h2>
-        <h1 className="text-4xl font-semibold px-10">
+        <h1 className="text-4xl font-semibold px-10 h-16">
           <span className="mr-2">{text}</span>
           <Cursor cursorColor="#facc15" />
         </h1>

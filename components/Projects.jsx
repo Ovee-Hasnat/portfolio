@@ -43,7 +43,7 @@ const Projects = () => {
         ))}
       </div>
 
-      <div className="w-full bg-neutral-900 h-[500px] -skew-y-12 absolute left-0 top-[25%]" />
+      <div className="w-full bg-neutral-900 h-[500px] -skew-y-12 absolute left-0 top-[28%]" />
     </motion.div>
   );
 };

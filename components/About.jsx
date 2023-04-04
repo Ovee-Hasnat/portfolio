@@ -15,7 +15,7 @@ const About = () => {
       </h3>
       <motion.img
         initial={{
-          x: -300,
+          x: -100,
           opacity: 0,
         }}
         whileInView={{
@@ -26,24 +26,31 @@ const About = () => {
           duration: 1.25,
         }}
         viewport={{ once: true }}
-        className="mb-10 md:mb-0 h-56 w-56 flex-shrink-0 rounded-full object-cover md:rounded-lg md:h-96 md:w-64 lg:h-[600px] lg:w-[400px]"
+        className="mb-10 sm:mb-0 h-56 w-56 flex-shrink-0 rounded-full object-cover md:rounded-lg md:h-96 md:w-64 lg:h-[600px] lg:w-[400px]"
         src="/img/aboutImg.jpg"
       />
       <div className="p-2 sm:ml-6">
         <p className="text-sm text-gray-300">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
-          suscipit eius dolores sed nihil blanditiis, ipsam qui odio
-          perspiciatis! Id consequatur qui earum iste. Non ullam molestias
-          excepturi tempora nobis. Perspiciatis, quo? Veritatis magni dolores
-          quos labore doloribus deserunt eligendi est tenetur similique rerum
-          natus expedita itaque, laudantium id minus ipsam incidunt? Ipsum
-          perferendis officiis unde placeat magni vitae tenetur.
-          <br></br>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          dolore dolorem eaque dolores, cum iste velit, et a, obcaecati animi
-          maiores facere consequatur dignissimos ipsam numquam nulla accusantium
-          molestias repellat.
+          I recently received my B.Sc in CSE degree from North South University.
+          Machine learning & Deep learning were the main topics of my major.
+          I've worked on a number of web development projects in addition to my
+          ML and DL projects, which I've listed below.
+          <br />
+          <br />
+          Python, Java & C are just a few of the programming languages in which
+          I am fluent. I am familiar with the Firebase, MongoDB, and MySQL
+          databases. While being skilled in JavaScript, React js and Next Js, I
+          am also studying full-stack (MERN) development.
         </p>
+      </div>
+      <div className="py-2 px-6 mt-10 border border-yellow-500/50 rounded-lg cursor-pointer hover:border-yellow-500 transition-all duration-300 ease-in-out absolute bottom-20">
+        <a
+          href=""
+          download="/Update_CV_Ovee.pdf"
+          className="text-neutral-500 uppercase text-sm tracking-widest"
+        >
+          Download Resume
+        </a>
       </div>
     </motion.div>
   );
