@@ -57,7 +57,7 @@ const Projects = () => {
               className="flex-shrink-0 justify-center items-center space-y-6 p-4 xl:px-80 cursor-grab"
             >
               <motion.img
-                initial={{ y: -200, opacity: 0 }}
+                initial={{ y: -100, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
