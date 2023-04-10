@@ -39,15 +39,15 @@ const ContactMe = () => {
       <div className="space-y-2">
         <div className="flex space-x-4">
           <PhoneIcon className="h-6 w-6 text-neutral-500" />
-          <p className="text-gray-400 tracking-wider">+880 1521 436302</p>
+          <p className="text-neutral-400 tracking-wider">+880 1521 436302</p>
         </div>
         <div className="flex space-x-4">
           <EnvelopeIcon className="h-6 w-6 text-neutral-500" />
-          <p className="text-gray-400 tracking-wider">hasnat.ovee@gmail.com</p>
+          <p className="text-neutral-400 tracking-wider">hasnat.ovee@gmail.com</p>
         </div>
         <div className="flex space-x-4">
           <MapIcon className="h-6 w-6 text-neutral-500" />
-          <p className="text-gray-400 tracking-wider">Dhaka, Bangladesh</p>
+          <p className="text-neutral-400 tracking-wider">Dhaka, Bangladesh</p>
         </div>
       </div>
 

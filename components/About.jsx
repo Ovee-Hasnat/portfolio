@@ -30,7 +30,7 @@ const About = () => {
         src="/img/aboutImg.jpg"
       />
       <div className="p-2 sm:ml-6">
-        <p className="text-sm text-gray-300">
+        <p className="text-sm sm:text-base font-thin text-gray-300">
           I recently received my B.Sc in CSE degree from North South University.
           Machine learning & Deep learning were the main topics of my major.
           I've worked on a number of web development projects in addition to my
@@ -43,14 +43,21 @@ const About = () => {
           am also studying full-stack (MERN) development.
         </p>
       </div>
-      <div className="py-2 px-6 mt-10 border border-yellow-500/50 rounded-lg cursor-pointer hover:border-yellow-500 transition-all duration-300 ease-in-out absolute bottom-20">
-        <a
-          href=""
-          download="/Update_CV_Ovee.pdf"
-          className="text-neutral-500 uppercase text-sm tracking-widest"
-        >
-          Download Resume
-        </a>
+      <div className="group mt-10 absolute bottom-20">
+
+        <div className="relative rounded-lg overflow-hidden transition-all ease-linear border border-yellow-500/50  hover:border-yellow-500 w-52 h-9">
+          
+          <div className="w-0 group-hover:w-full bg-neutral-900 h-full absolute top-0 left-0 transition-all duration-300 ease-linear z-0"></div>
+          <a
+            href=""
+            download="/Update_CV_Ovee.pdf"
+            className="py-2 px-6 text-neutral-500 uppercase text-sm tracking-widest group-hover:text-neutral-300 transition-all ease-linear rounded-lg cursor-pointer block z-20 absolute top-0 left-0 w-full"
+          >
+            Download Resume
+          </a>
+
+        </div>
+
       </div>
     </motion.div>
   );

@@ -4,7 +4,7 @@
 
 @layer components {
   .heroBtn {
-    @apply px-6 py-2 uppercase rounded-full text-gray-500 text-xs border border-gray-500/0 tracking-widest transition-all hover:border-gray-500/70 hover:text-yellow-500 mx-1;
+    @apply px-6 py-2 uppercase rounded-full text-neutral-500 text-xs border border-gray-500/0 tracking-widest transition-all hover:border-neutral-500/70 hover:text-yellow-500 mx-1;
   }
 
   .formInput {

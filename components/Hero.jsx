@@ -21,7 +21,7 @@ const Hero = () => {
         src="/img/heroImg.jpg"
       />
       <div className="z-10">
-        <h2 className="uppercase text-sm text-gray-500 tracking-[10px] pb-2">
+        <h2 className="uppercase text-sm text-neutral-600 tracking-[10px] pb-2">
           software engineer
         </h2>
         <h1 className="text-4xl font-semibold px-10 h-16">
