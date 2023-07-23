@@ -18,7 +18,7 @@ const Hero = () => {
       <BackgroundCircles />
       <img
         className="relative h-32 w-32 rounded-full mx-auto object-cover"
-        src="/img/heroImg.jpg"
+        src="/img/heroImg2.png"
       />
       <div className="z-10">
         <h2 className="uppercase text-sm text-neutral-600 tracking-[10px] pb-2">

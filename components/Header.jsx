@@ -69,7 +69,7 @@ const Header = () => {
           url="#contact"
         />
         <Link href="#contact">
-          <p className="uppercase text-sm text-gray-400 hidden sm:inline-block hover:text-yellow-500">
+          <p className="uppercase text-sm text-neutral-500 hidden sm:inline-block hover:text-yellow-500">
             get in touch
           </p>
         </Link>

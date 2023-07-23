@@ -46,7 +46,7 @@ export default function Home() {
         <ContactMe />
       </section>
 
-      <footer className="sticky bottom-5 w-fit mx-auto opacity-20 hover:opacity-70 cursor-pointer hover:scale-125 transition duration-300 ease-in-out z-50">
+      <footer className="hidden lg:block sticky bottom-5 w-fit mx-auto opacity-20 hover:opacity-70 cursor-pointer hover:scale-125 transition duration-300 ease-in-out z-50">
         <Link href="#hero">
           <ArrowUpCircleIcon className="h-6 w-6 text-neutral-500" />
         </Link>
