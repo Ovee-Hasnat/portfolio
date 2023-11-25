@@ -7,7 +7,7 @@ const Hero = () => {
   const [text, count] = useTypewriter({
     words: [
       "Hi 👋, This is Ovee",
-      "guy-who-loves-to-code 🤔",
+      "guy-who-loves-to-code 🧑‍💻",
       "<RealMadridForever/> 👑",
     ],
     loop: true,

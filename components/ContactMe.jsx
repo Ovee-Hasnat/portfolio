@@ -18,11 +18,11 @@ const ContactMe = () => {
       <h3 className="text-neutral-500 uppercase tracking-[5px] text-center pt-16">
         Contact <span className="text-yellow-500">me</span>
       </h3>
-      <motion.div
-        initial={{ y: 200, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 1 }}
-        viewport={{ once: true }}
+      <div
+        // initial={{ y: 200, opacity: 0 }}
+        // whileInView={{ y: 0, opacity: 1 }}
+        // transition={{ duration: 1 }}
+        // viewport={{ once: true }}
         className="h-[calc(100vh-88px)] flex flex-col text-center sm:text-left max-w-5xl justify-around mx-auto items-center"
       >
         <motion.h4
@@ -90,7 +90,7 @@ const ContactMe = () => {
             </button>
           </form>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 };
